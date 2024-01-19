@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header started */
+.container {
+    width: 1320px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-area {
+    height: 600px;
+    text-align: center;
+    color: #fff;
+    margin: 50px 0;
+}
+
+.header-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-title-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+.header-content {
+    position: absolute;
+    top: 32%;
+    left: 32%;
+}
+
+.header-background-img {
+    background-image: url("resources/Banner\ Image.png");
+}
+
+.overlay {
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    border-radius: 16px;
+
+}
+
+/* categories started*/
+#categories {
+    text-align: center;
+}
+
+.categories-heading {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.categories-pera {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.categories-head {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* .categories-img {
+    width: 802.9px;
+    height: 494.819px;
+    flex-shrink: 0;
+} */
+.categories-content {
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+/* welcome started */
+#welcome {
+    position: relative;
+    margin: 100px 0;
+}
+
+.welcome-content {
+    display: flex;
+    position: absolute;
+    top: 0px;
+}
+
+.party-heading {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.party-para {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 35px;
+}
+
+.party-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: transparent;
+    border: navajowhite;
+    padding: 30px 30px;
+}
+
+.party-text {
+    text-align: left;
+    width: 700px;
+    padding-left: 125px;
+    padding-top: 124px;
+}
+
+.party-img {
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+/* contact  */
+#contact {
+    text-align: center;
+}
+
+.contact-area {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding-top: 92px;
+    padding-bottom: 70px;
+    border-radius: 16px;
+}
+
+.red {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.contact-heading {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.contact-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+.contact-btn:hover {
+    background-color: #070211;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* comeing-area */
+
+#coming {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.comeing-area {
+    display: flex;
+    /* background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
+}
+
+.top-content {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 205.448px;
+    height: 28.7px;
+    flex-shrink: 0;
+    margin-bottom: 15px;
+}
+
+.base-content {
+    width: 325.54px;
+    height: 59.378px;
+    flex-shrink: 0;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.down-para {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 38px;
+}
+
+.content-img {
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.content-img {
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    /* background: url("resources/Ellipse\ 1.png"), lightgray -91.279px 0px / 150.038% 100% no-repeat; */
+}
+
+.setion {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.setion-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    width: 276px;
+}
+
+.grup-img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+.content-img {
+    margin-right: 145px;
+    margin-left: 50px;
+}
+
+.content-img img {
+    margin: 30px;
+}
+
+.mt {
+    margin-top: 75px;
+}
+
+
+/* sale */
+.sale-area {
+    text-align: center;
+}
+
+.sale-head {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sales span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sales {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sale-para {
+	color: rgba(7, 2, 17, 0.60);
+	text-align: center;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
+	padding: 0 219px;
+	margin-top: 50px;
+}
+
+.headiing {
+    width: 100px;
+    padding-left: 40%;
+}

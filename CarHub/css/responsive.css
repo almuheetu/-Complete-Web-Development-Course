@@ -1,0 +1,62 @@
+/*=========================================================
+  Start Header
+=========================================================*/
+@media(max-width:992px){
+}
+/*-------------------------------------------------------------------------*/
+@media(max-width:768px){
+  /* header{
+    padding: 50px 0;
+  } */
+  ul{
+    margin-top: 20px;
+  }
+  .navbar-brand {
+    padding-left: 0px;
+  }
+  .pt-5, .py-5 {
+    padding-top: 0rem !important;
+  }
+}
+/*-------------------------------------------------------------------------*/
+@media(max-width:556px){
+  .pt-5, .py-5 {
+    padding-top: 0rem !important;
+  }
+}
+/*-------------------------------------------------------------------------*/
+@media(max-width:480px){
+  header .header-info h1 {
+    font-size: 40px;
+  }
+  header .header-info p {
+    letter-spacing: 5px;
+  }
+  .pb-5, .py-5 {
+    padding-bottom: 0rem !important;
+  }
+}
+/*-------------------------------------------------------------------------*/
+@media(max-width:320px){
+  header .header-info h1 {
+    font-size: 35px;
+  }
+  header .header-info h3, p {
+    font-size: 23px;
+  }
+  header .header-info p {
+    letter-spacing: 4px;
+    font-size: 16px;
+  }
+  .header-info {
+    margin-top: 40px;
+  }
+  .pb-5, .py-5 {
+    padding-bottom: 0rem !important;
+  }
+}
+/*-------------------------------------------------------------------------*/
+@media(max-width:290px){
+
+}
+/*End Header*/
