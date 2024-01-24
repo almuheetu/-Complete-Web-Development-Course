@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/d2e5d32caa.js" crossorigin="anonymous"></script>
     <!-- tailwind custom colors -->
     <script>
         tailwind.config = {
@@ -37,8 +39,8 @@
 <body class="font-manrope">
     <header class="container mx-auto">
         <div class="hero">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src="images/banner.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div class="hero-content flex-col lg:flex-row">
+
                 <div>
                     <h1 class="text-7xl font-extrabold">
                         It's good <br>
@@ -47,6 +49,16 @@
                     <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                     </p>
                     <button class="btn btn-primary">Explore More</button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                        <div>
+                            <h3 class="text-3xl">5.00</h3>
+                            <p>Trust Right Ratings</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
